@@ -52,7 +52,7 @@ a {
 .box-conteudo {
     display: flex;
     margin: 50px 30px;
-    justify-content: space-around;
+    justify-content:space-around;
     align-items: center;
     max-width: 100%;
 }
@@ -69,7 +69,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+
 }
 
 .box-titulo {
