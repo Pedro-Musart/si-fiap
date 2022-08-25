@@ -1,0 +1,8 @@
+package br.com.bancoxyz.modelo;
+
+public class Conta {
+	private String saldo;
+	private int numero;
+	private int digito;
+	
+}

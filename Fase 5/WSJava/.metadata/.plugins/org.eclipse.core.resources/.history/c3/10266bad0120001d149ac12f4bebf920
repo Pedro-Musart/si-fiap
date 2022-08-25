@@ -1,0 +1,13 @@
+package br.com.heranca.implementacao;
+
+import br.com.heranca.beans.Livro;
+
+public class TesteProduto {
+
+	public static void main(String[] args) {
+		Livro harrypotter = new Livro ();
+		
+
+	}
+
+}

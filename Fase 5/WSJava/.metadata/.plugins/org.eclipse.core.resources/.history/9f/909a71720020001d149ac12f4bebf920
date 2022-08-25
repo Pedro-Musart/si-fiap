@@ -1,0 +1,9 @@
+package br.com.heranca.beans;
+
+public class Livro {
+	private String editora;
+	private String ISBN;
+	private String autor;
+	private int volume;
+	private boolean capaDura;
+}

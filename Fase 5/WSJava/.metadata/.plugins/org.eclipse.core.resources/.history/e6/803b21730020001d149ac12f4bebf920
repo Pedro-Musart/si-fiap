@@ -1,0 +1,33 @@
+package br.com.heranca.beans;
+
+public class CD extends Produto{
+	private String gravadora;
+	private String artista;
+	private int totalFaixas;
+	
+	
+	
+	
+	
+	public String getGravadora() {
+		return gravadora;
+	}
+	public void setGravadora(String gravadora) {
+		this.gravadora = gravadora;
+	}
+	public String getArtista() {
+		return artista;
+	}
+	public void setArtista(String artista) {
+		this.artista = artista;
+	}
+	public int getTotalFaixas() {
+		return totalFaixas;
+	}
+	public void setTotalFaixas(int totalFaixas) {
+		this.totalFaixas = totalFaixas;
+	}
+	
+	
+}
+

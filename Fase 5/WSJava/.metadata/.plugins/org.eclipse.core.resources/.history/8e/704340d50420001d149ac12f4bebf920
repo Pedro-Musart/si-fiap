@@ -1,0 +1,27 @@
+package br.com.heranca.implementacao;
+
+import br.com.heranca.beans.Livro;
+
+public class TesteProduto {
+
+	public static void main(String[] args) {
+		Livro harrypotter = new Livro ();
+		harrypotter.setId(1);
+		harrypotter.setEstilo("Aventura"); 
+		harrypotter.setAutor ("JK Rolling");
+		harrypotter.setLancamento(true);
+		harrypotter.setTitulo ("Harry Potter e a Camara Secreta");
+		harrypotter.setCapaDura(true);
+		System.out.println("ID:" + harrypotter.getId());
+		System.out.println("Estilo:" + harrypotter.getEstilo());
+		
+	if(harrypotter.isCapaDura() == true) {
+			System.out.println("Capa dura? Sim");
+		}else {
+			System.out.println("Capa dura: Não");
+		}
+
+	} 
+	
+	
+}

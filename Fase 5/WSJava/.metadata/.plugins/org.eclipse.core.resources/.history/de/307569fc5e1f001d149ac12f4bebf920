@@ -1,0 +1,7 @@
+package br.com.heranca.beans;
+
+public class CD {
+	private String gravadora;
+	private String artista;
+	private int totalFaixas;
+}

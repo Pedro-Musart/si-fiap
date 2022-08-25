@@ -1,0 +1,29 @@
+package br.com.heranca.implementacao;
+
+import javax.swing.JOptionPane;
+
+import br.com.heranca.beans.Livro;
+
+public class TesteProduto {
+
+	public static void main(String[] args) {
+		Livro livro = new Livro ();
+		livro.setId(1);
+		livro.setEstilo(JOptionPane.showInputDialog("Digite o estilo")); 
+		livro.setAutor(JOptionPane.showInputDialog("Digite o autor"));
+		livro.setLancamento(true);
+		livro.setTitulo (JOptionPane.showInputDialog("Digite o título"));
+		livro.setCapaDura(false);
+		System.out.println("ID:" + livro.getId());
+		System.out.println("Estilo:" + livro.getEstilo());
+		
+	if(livro.isCapaDura() == true) {
+			System.out.println("Capa dura? Sim");
+		}else {
+			System.out.println("Capa dura? Não");
+		}
+
+	} 
+	
+	
+}

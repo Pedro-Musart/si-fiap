@@ -1,0 +1,10 @@
+package br.com.heranca.implementacao;
+
+public class TestandoToString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

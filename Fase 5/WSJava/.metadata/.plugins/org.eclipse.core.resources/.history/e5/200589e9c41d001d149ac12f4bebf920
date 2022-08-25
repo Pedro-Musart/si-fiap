@@ -1,0 +1,10 @@
+package br.com.master4.traveller;
+
+public class Cidade {
+	private int id;
+	private String cidade;
+	private String estado;
+	private String siglaEstado;
+	private String pais;
+	private String siglaPais;
+}
